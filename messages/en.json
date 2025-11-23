@@ -1,0 +1,44 @@
+{
+  "welcome": "Welcome",
+  "language": {
+    "en": "EN",
+    "th": "TH"
+  },
+  "mainMenu": {
+    "test": "Test",
+    "layoutStyle": "Layouts & style",
+    "connectAPI": "Connect API",
+    "formTable": "Form & Table"
+  },
+  "form": {
+    "title": "Title",
+    "firstname": "First Name",
+    "lastname": "Last Name",
+    "citizenID": "Citizen ID",
+    "passport": "Passport No",
+    "birthday": "Birthday",
+    "nationality": "Nationality",
+    "expectedSalary": "Expected Salary",
+    "submit": "Submit",
+    "reset": "Reset",
+    "update": "Update",
+    "selectTitle": "Select Title",
+    "mr": "Mr.",
+    "mrs": "Mrs.",
+    "miss": "Miss",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "unsex": "Unsex",
+    "mobilePhone": "Mobile Phone",
+    "SelectAll": "Select All",
+    "delete": "Delete",
+    "edit": "Edit",
+    "manage": "MANAGE",
+    "prev": "prev",
+    "next": "Next",
+    "name": "Name",
+    "placeholderDate": "mm//dd//yy",
+    "pleaseSelect": "-- Please Select --"
+  }
+}

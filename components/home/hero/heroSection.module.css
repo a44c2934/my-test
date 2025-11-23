@@ -1,0 +1,41 @@
+.hero {
+  padding: 24px;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  height: calc(100dvh - 30px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 16px;
+  width: 100%;
+}
+
+.content > div {
+  background: white;
+  padding: 20px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 100%;
+}
+.content > div:active {
+  background: #e0e0e0;
+}
+.test1 {
+  grid-area: 1 / 2 / 2 / 4;
+}
+.test2 {
+  grid-area: 1 / 4 / 2 / 6;
+}
+.test3 {
+  grid-area: 1 / 6 / 2 / 8;
+}

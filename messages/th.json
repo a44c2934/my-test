@@ -1,0 +1,44 @@
+{
+  "welcome": "ยินดีต้อนรับ",
+  "language": {
+    "en": "อังกฤษ",
+    "th": "ไทย"
+  },
+  "mainMenu": {
+    "test": "แบบทดสอบที่",
+    "layoutStyle": "การจัดการหน้าเว็บ",
+    "connectAPI": "การเชื่อมต่อ API",
+    "formTable": "การจัดการหน้าฟอร์ม"
+  },
+  "form": {
+    "title": "คำนำหน้า",
+    "firstname": "ชื่อ",
+    "lastname": "นามสกุล",
+    "citizenID": "เลขบัตรประชาชน",
+    "passport": "หนังสือเดินทาง",
+    "birthday": "วันเกิด",
+    "nationality": "สัญชาติ",
+    "expectedSalary": "เงินเดือนที่คาดหวัง",
+    "submit": "ส่งข้อมูล",
+    "reset": "ล้างข้อมูล",
+    "update": "อัปเดต",
+    "selectTitle": "เลือกคำนำหน้า",
+    "mr": "นาย",
+    "mrs": "นาง",
+    "miss": "นางสาว",
+    "gender": "เพศ",
+    "male": "ชาย",
+    "female": "หญิง",
+    "unsex": "ไม่ระบุ",
+    "mobilePhone": "หมายเลขโทรศัพท์มือถือ",
+    "SelectAll": "เลือกทั้งหมด",
+    "delete": "ลบข้อมูล",
+    "edit": "แก้ไข",
+    "manage": "จัดการ",
+    "prev": "ก่อนหน้า",
+    "next": "ถัดไป",
+    "name": "ชื่อ",
+    "placeholderDate": "เดือน/วัน/ปี",
+    "pleaseSelect": "-- กรุณาเลือก --"
+  }
+}

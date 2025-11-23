@@ -1,0 +1,251 @@
+.container {
+  max-width: 1200px;
+  min-height: 100vh;
+  padding: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-size: 38px;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+.panel {
+  max-width: 1200px;
+}
+
+.topControls {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 16px;
+}
+
+.controlCard {
+  width: 100%;
+  height: 130px;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.controlCard:hover {
+  background: #ffa200;
+}
+.controlCard:active {
+  background: #6eda78;
+}
+
+.controlCard:nth-child(1) {
+  grid-column: span 2;
+}
+.controlCard:nth-child(2) {
+  grid-column: span 4;
+}
+.controlCard:nth-child(3) {
+  grid-column: span 2;
+}
+
+.actionBtn {
+  margin-top: 10px;
+  padding: 3px 18px;
+  background: #6eda78;
+  border: none;
+  color: white;
+  font-size: 13px;
+  border-radius: 20px;
+  cursor: pointer;
+  position: absolute;
+  bottom: -10px;
+}
+
+/* เส้นแบ่ง */
+.separator {
+  width: 100%;
+  height: 1px;
+  background: rgba(147, 147, 147, 0.5);
+  margin: 25px 0;
+}
+
+.shapeCard {
+  background: white;
+  width: 100%;
+  height: 110px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 130px;
+}
+
+/* ────────────────────────────────────────────────────────────── */
+/* SHAPES */
+/* ────────────────────────────────────────────────────────────── */
+
+.triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-right: 70px solid #757575;
+}
+
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-left: 70px solid #757575;
+}
+
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 70px solid #757575;
+}
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 70px solid #757575;
+}
+
+.triangle-up-down {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.trapezoid {
+  width: 150px;
+  height: 0;
+  border-bottom: 70px solid #757575;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+}
+
+.rectangle {
+  width: 200px;
+  height: 70px;
+  background: #757575;
+}
+
+.parallelogram {
+  width: 200px;
+  height: 70px;
+  background: #757575;
+  transform: skew(20deg);
+}
+
+.square {
+  width: 70px;
+  height: 70px;
+  background: #757575;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  background: #757575;
+  border-radius: 50%;
+}
+
+.oval {
+  width: 180px;
+  height: 80px;
+  background: #757575;
+  border-radius: 100px / 45px;
+}
+
+.shapeParent {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 16px;
+}
+
+.shapeParent > div {
+  background: white;
+  padding: 20px;
+}
+
+.shapeCard:hover {
+  background: #ffa200;
+}
+
+.shapeCard:hover div {
+  background: white;
+}
+
+.shapeCard:active div {
+  background: white;
+}
+
+.shapeCard:active {
+  background: #6eda78;
+}
+
+.shapeCard:hover .trapezoid {
+  border-bottom-color: white;
+  border-left-color: #ffa200;
+  border-right-color: #ffa200;
+}
+.shapeCard:active .trapezoid {
+  border-bottom-color: white;
+  border-left-color: #6eda78;
+  border-right-color: #6eda78;
+}
+
+/* ────────────────────────────────────────────────────────────── */
+/* SHAPES 1*/
+/* ────────────────────────────────────────────────────────────── */
+.layout1 > .shape1 {
+  grid-area: 1 / 3 / 2 / 5;
+}
+.layout1 > .shape2 {
+  grid-area: 1 / 5 / 2 / 7;
+}
+.layout1 > .shape3 {
+  grid-area: 1 / 7 / 2 / 9;
+}
+.layout1 > .shape4 {
+  grid-area: 2 / 2 / 3 / 4;
+}
+.layout1 > .shape5 {
+  grid-area: 2 / 4 / 3 / 6;
+}
+.layout1 > .shape6 {
+  grid-area: 2 / 6 / 3 / 8;
+}
+
+/* ────────────────────────────────────────────────────────────── */
+/* SHAPES 2*/
+/* ────────────────────────────────────────────────────────────── */
+.layout2 > .shape1 {
+  grid-area: 1 / 2 / 2 / 4;
+}
+.layout2 > .shape2 {
+  grid-area: 1 / 4 / 2 / 6;
+}
+.layout2 > .shape3 {
+  grid-area: 1 / 6 / 2 / 8;
+}
+.layout2 > .shape4 {
+  grid-area: 2 / 3 / 3 / 5;
+}
+.layout2 > .shape5 {
+  grid-area: 2 / 5 / 3 / 7;
+}
+.layout2 > .shape6 {
+  grid-area: 2 / 7 / 3 / 9;
+}

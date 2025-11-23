@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+.select {
+  height: 26px;
+}

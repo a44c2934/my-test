@@ -1,0 +1,15 @@
+.btnDeleteAll {
+  margin-left: 8px;
+}
+.tablePageContainer {
+  padding: 75px;
+}
+.tableContainer {
+  border-radius: 12px;
+  overflow: hidden;
+}
+.tableActionsContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
